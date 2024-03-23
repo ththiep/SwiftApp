@@ -16,7 +16,7 @@ struct SwiftAppApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginViewController(viewModel: LoginViewModel())
         }
     }
 }

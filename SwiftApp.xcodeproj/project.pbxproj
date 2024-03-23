@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		772F5F422BAF08A700836C3E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772F5F412BAF08A700836C3E /* Launch Screen.storyboard */; };
+		772F5F462BAF0A3D00836C3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 772F5F452BAF0A3D00836C3E /* GoogleService-Info.plist */; };
+		772F5F4B2BAF0E1200836C3E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772F5F4A2BAF0E1200836C3E /* LoginViewModel.swift */; };
+		772F5F4D2BAF10A400836C3E /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772F5F4C2BAF10A400836C3E /* CustomView.swift */; };
+		772F5F4F2BAF10F000836C3E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772F5F4E2BAF10F000836C3E /* HomeView.swift */; };
+		772F5F542BAF23AB00836C3E /* NavigationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772F5F532BAF23AB00836C3E /* NavigationUtil.swift */; };
 		77AFC34A2BAE74370027F7B3 /* SwiftAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AFC3492BAE74370027F7B3 /* SwiftAppApp.swift */; };
-		77AFC34C2BAE74370027F7B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AFC34B2BAE74370027F7B3 /* ContentView.swift */; };
+		77AFC34C2BAE74370027F7B3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AFC34B2BAE74370027F7B3 /* LoginViewController.swift */; };
 		77AFC34E2BAE74380027F7B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77AFC34D2BAE74380027F7B3 /* Assets.xcassets */; };
 		77AFC3512BAE74380027F7B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77AFC3502BAE74380027F7B3 /* Preview Assets.xcassets */; };
 		D69B9847732B3F599147A48F /* Pods_SwiftApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC1BE193BF60934501DAADD /* Pods_SwiftApp.framework */; };
@@ -17,9 +23,17 @@
 /* Begin PBXFileReference section */
 		16BB73B1D25827B2A7FA9D28 /* Pods-SwiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftApp.debug.xcconfig"; path = "Target Support Files/Pods-SwiftApp/Pods-SwiftApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5607E0B2C827969B1CC83A6D /* Pods-SwiftApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftApp.release.xcconfig"; path = "Target Support Files/Pods-SwiftApp/Pods-SwiftApp.release.xcconfig"; sourceTree = "<group>"; };
+		772F5F412BAF08A700836C3E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		772F5F432BAF08CF00836C3E /* SwiftApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftApp.entitlements; sourceTree = "<group>"; };
+		772F5F442BAF08D400836C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		772F5F452BAF0A3D00836C3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		772F5F4A2BAF0E1200836C3E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		772F5F4C2BAF10A400836C3E /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		772F5F4E2BAF10F000836C3E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		772F5F532BAF23AB00836C3E /* NavigationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUtil.swift; sourceTree = "<group>"; };
 		77AFC3462BAE74370027F7B3 /* SwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AFC3492BAE74370027F7B3 /* SwiftAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppApp.swift; sourceTree = "<group>"; };
-		77AFC34B2BAE74370027F7B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		77AFC34B2BAE74370027F7B3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		77AFC34D2BAE74380027F7B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77AFC3502BAE74380027F7B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9FC1BE193BF60934501DAADD /* Pods_SwiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,8 +57,39 @@
 				16BB73B1D25827B2A7FA9D28 /* Pods-SwiftApp.debug.xcconfig */,
 				5607E0B2C827969B1CC83A6D /* Pods-SwiftApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		772F5F472BAF0D9600836C3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				772F5F4C2BAF10A400836C3E /* CustomView.swift */,
+				772F5F4E2BAF10F000836C3E /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		772F5F482BAF0DA600836C3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		772F5F492BAF0DAC00836C3E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				772F5F4A2BAF0E1200836C3E /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		772F5F522BAF238900836C3E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				772F5F532BAF23AB00836C3E /* NavigationUtil.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		77AFC33D2BAE74370027F7B3 = {
@@ -68,10 +113,18 @@
 		77AFC3482BAE74370027F7B3 /* SwiftApp */ = {
 			isa = PBXGroup;
 			children = (
+				772F5F522BAF238900836C3E /* Utils */,
+				772F5F492BAF0DAC00836C3E /* ViewModel */,
+				772F5F482BAF0DA600836C3E /* Model */,
+				772F5F472BAF0D9600836C3E /* View */,
+				772F5F432BAF08CF00836C3E /* SwiftApp.entitlements */,
 				77AFC3492BAE74370027F7B3 /* SwiftAppApp.swift */,
-				77AFC34B2BAE74370027F7B3 /* ContentView.swift */,
+				77AFC34B2BAE74370027F7B3 /* LoginViewController.swift */,
 				77AFC34D2BAE74380027F7B3 /* Assets.xcassets */,
+				772F5F442BAF08D400836C3E /* Info.plist */,
+				772F5F452BAF0A3D00836C3E /* GoogleService-Info.plist */,
 				77AFC34F2BAE74380027F7B3 /* Preview Content */,
+				772F5F412BAF08A700836C3E /* Launch Screen.storyboard */,
 			);
 			path = SwiftApp;
 			sourceTree = "<group>";
@@ -153,6 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				77AFC3512BAE74380027F7B3 /* Preview Assets.xcassets in Resources */,
+				772F5F462BAF0A3D00836C3E /* GoogleService-Info.plist in Resources */,
+				772F5F422BAF08A700836C3E /* Launch Screen.storyboard in Resources */,
 				77AFC34E2BAE74380027F7B3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,8 +261,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77AFC34C2BAE74370027F7B3 /* ContentView.swift in Sources */,
+				77AFC34C2BAE74370027F7B3 /* LoginViewController.swift in Sources */,
+				772F5F4D2BAF10A400836C3E /* CustomView.swift in Sources */,
 				77AFC34A2BAE74370027F7B3 /* SwiftAppApp.swift in Sources */,
+				772F5F4F2BAF10F000836C3E /* HomeView.swift in Sources */,
+				772F5F4B2BAF0E1200836C3E /* LoginViewModel.swift in Sources */,
+				772F5F542BAF23AB00836C3E /* NavigationUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +310,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -314,7 +373,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -339,14 +398,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftApp/SwiftApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -356,6 +418,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = learning.SwiftApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -368,14 +433,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftApp/SwiftApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -385,6 +453,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = learning.SwiftApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
